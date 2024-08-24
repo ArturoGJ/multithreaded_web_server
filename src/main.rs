@@ -30,6 +30,8 @@ fn main() {
             handle_connection(stream);
         });
     }
+
+    println!("Sutting down.");
 }
 
 fn handle_connection(mut stream: TcpStream) {
